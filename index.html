@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mobile Web App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <section data-role="page" id="home" class="inactive-page">
+        <header>
+            <h2>Movie Info</h2>
+        </header>
+        <div>
+            <h3>The Martian</h3>
+            <p>When astronauts blast off from the planet Mars, they leave behind Mark Watney (Matt Damon), presumed dead after a fierce storm. With only a meager amount of supplies, the stranded visitor must utilize his wits and spirit to find a way to survive on the hostile planet. Meanwhile, back on Earth, members of NASA and a team of international scientists work tirelessly to bring him home, while his crew mates hatch their own plan for a daring rescue mission.</p>
+        </div>
+    </section>
+    <section data-role="page" id="cast" class="inactive-page">
+        <header>
+            <h2>Movie Cast</h2>
+        </header>
+        <div>
+            <ul>
+                <li><img src="Pics/Matt%20Damon.jpeg" alt="Matt Damon"> Matt Damon</li>
+                <li><img src="Pics/Jessica%20Chastain.jpeg" alt="Jessica Chastain"> Jessica Chastain</li>
+                <li><img src="Pics/Chiwetel%20Ejiofor.jpeg" alt="Chiwete Ejiofor"> Chiwete Ejiofor</li>
+                <li><img src="Pics/Kate%20Mara.jpeg" alt="Kate Mara"> Kate Mara</li>
+                <li><img src="Pics/Kristen%20Wiig.jpeg" alt="Kristen Wiig"> Kristen Wiig</li>
+            </ul>
+        </div>
+    </section>
+    <section data-role="page" id="reviews" class="inactive-page">
+        <header>
+            <h2>Movie Reviews</h2>
+        </header>
+        <div>
+            <ul>
+                <li>
+                    <h3>Variety</h3>
+                    <p>An enthralling and rigorously realistic outer-space survival story in which Matt Damon plays a NASA botanist stranded on the Red Planet after a sandstorm forces his crewmates to abort mission.</p>
+                    <p id="star">&#x2605; &#x2605; &#x2605; &#x2605; &#x2606;<p>
+                </li>
+                <li>
+                    <h3>The Guardian</h3>
+                    <p>Damon’s likable everyman is stranded on the red planet in Ridley Scott’s down-to-earth drama.</p>
+                    <p id="star">&#x2605; &#x2605; &#x2605; &#x2606; &#x2606;<p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <nav>
+        <a href="#home" class="page-link"><i class="fa fa-film"></i> Home</a>
+        <a href="#cast" class="page-link"><i class="fa fa-pencil"></i> Cast</a>
+        <a href="#reviews" class="page-link"><i class="fa fa-user"></i> Reviews</a>
+    </nav>
+
+    <script src="main.js"></script>
+    <script src="hammer.min.js"></script>
+</body>
+
+</html>
